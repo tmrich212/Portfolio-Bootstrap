@@ -109,13 +109,13 @@ li:hover {
     /* background: rgb(10, 10, 10); */
     /* background: rgb(165, 165, 165); */
     /* background-color: rgb(238, 238, 238); */
-    background-color: rgb(230, 223, 223);
+    /* background-color: rgb(230, 223, 223); */
+    background-color: rgb(224, 224, 224);
     height: 100vh;
     width: 100%;
 }
 
 #about-me {
-    /* background-color: rgb(199, 168, 219); */
     border-radius: 20px;
     /* height: 100%; */
     width: 100%;
@@ -125,7 +125,6 @@ li:hover {
 #about-container {
     margin: 0;
     padding: 0;
-    /* background-color: rgb(134, 133, 133); */
 }
 
 .personal {
@@ -135,7 +134,7 @@ li:hover {
 
 .col-auto h2 {
     text-align: center;
-    margin: 35px 0;
+    margin: 10px 0 25px 0;
 }
 
 .col-auto h2, p{
@@ -143,16 +142,16 @@ li:hover {
 }
 
 .list-title {
-    color: black;
+    color: white;
     text-align: center;
     margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 #skills-container {
     background-color: rgb(136, 163, 212);
     margin: 35px auto;
     border-radius: 50px;
-    
 }
 
 .skills, .icon {
@@ -162,27 +161,29 @@ li:hover {
 
 .skills {
     list-style: none;
+    color: white;
 }
 
 .icon {
     margin-top: 15px;
 }
 
-/* #col-skills {
-    display: flex;
-    flex-direction: column;
-} */
+
 
 
 /* ========PORTFOLIO PAGE========= */
 
 .header {
     /* background-color: rgb(172, 127, 127); dope ass color */
-    background-color: rgb(156, 144, 144); 
+    background-color: rgb(174, 202, 255); 
 }
 
-#portfolio {
-    background-color: hotpink; 
+.img-fluid {
+    margin: 55px 35px 15px 0;
+}
+
+img:hover {
+    transform: scale(1.0);
 }
 
 /* ========CONTACT FORM ========== */
