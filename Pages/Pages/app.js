@@ -1,5 +1,5 @@
 let typeText = document.querySelector('.typeText');
-let textToType = "Self-taught Front-end Developer";
+let textToType = "Front-end Developer from Virginia";
 let index = 0, isAdding = true;
 
 function playAnim() {
@@ -14,7 +14,7 @@ function playAnim() {
         // break: wait 2s before playing again
         setTimeout( function () {
           playAnim()
-        }, 5000)
+        }, 1800)
         return;
       } else {
         // increment index by 1
@@ -32,7 +32,7 @@ function playAnim() {
     }
     // call function to run
     playAnim();
-  }, 120)
+  }, 150)
 }
 
 //start animation
