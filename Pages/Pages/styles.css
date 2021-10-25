@@ -94,6 +94,10 @@ li:hover {
     100% {opacity: 0}
   }
 
+  .container {
+      width: 100%;
+  }
+
 /* ========ABOUT PAGE============= */
 
 
@@ -123,7 +127,8 @@ li:hover {
     /* background: rgb(165, 165, 165); */
     /* background-color: rgb(238, 238, 238); */
     /* background-color: rgb(230, 223, 223); */
-    background-color: rgb(214, 214, 214);
+    /* background-color: rgb(214, 214, 214); */
+    /* background-color: rgb(230, 223, 223); */
     /* background-color: rgb(145, 77, 145); */
     height: 100vh;
     width: 100%;
@@ -133,7 +138,7 @@ li:hover {
     border-radius: 20px;
     /* height: 100%; */
     width: 100%;
-    margin: 25px auto;
+    margin: 25px auto 0 auto;
 }
 
 #about-container {
@@ -189,7 +194,13 @@ li:hover {
 /* ========PORTFOLIO PAGE========= */
 .style-portfolio {
     background-color: rgb(174, 202, 255); 
+    margin: 0;
+    padding: 0;
 }
+
+/* #portfolio {
+
+} */
 
 .header {
     /* background-color: rgb(172, 127, 127); dope ass color */
